@@ -1,7 +1,9 @@
 body{
-background-image: url(pinkbackground.jpg);
+    background-image: url(pinkbackground.jpg);
 font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
 text-align: center;
+animation-name: pinkcolor;
+     animation-duration: 5s;
 
 }
 
@@ -16,6 +18,7 @@ h1{
     'header main nav';
      padding: 20px;
      margin: 20px;
+     
 }
 
 .Education{
@@ -47,4 +50,9 @@ h1{
     text-align: center;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
     }
+
+@keyframes pinkcolor{
+    0%  {background-image: url(pinkbackground.jpg);}
+    100% {background-image: url(pinkLed.jpg) ;}
+}
 
