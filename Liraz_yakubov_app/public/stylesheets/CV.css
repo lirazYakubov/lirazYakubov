@@ -1,0 +1,58 @@
+body{
+    background-image: url(pinkbackground.jpg);
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+text-align: center;
+animation-name: pinkcolor;
+     animation-duration: 5s;
+
+}
+
+h1{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    'header main nav';
+     padding: 20px;
+     margin: 20px;
+     
+}
+
+.Education{
+    grid-area: header;
+    background-color:palevioletred;
+    padding: 20px;
+    border: 2px solid white;
+    margin: 20px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+.Employment_Experience{
+    grid-area: main;
+    background-color:palevioletred;
+    padding: 20px;
+    border: 2px solid white;
+    margin: 20px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    }
+
+.Personal_Info{
+    grid-area: nav;
+    background-color:palevioletred;
+    padding: 20px;
+    border: 2px solid white ;
+    margin: 20px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    }
+
+@keyframes pinkcolor{
+    0%  {background-image: url(pinkbackground.jpg);}
+    100% {background-image: url(pinkLed.jpg) ;}
+}
+
